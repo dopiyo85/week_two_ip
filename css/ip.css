@@ -1,9 +1,9 @@
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
     color: inherit;
-    background-color: #eee;
+    background-color: rgb(175, 166, 166);
   }
   .jumbotron h1,
   .jumbotron .h1 {
