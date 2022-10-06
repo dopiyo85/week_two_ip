@@ -50,7 +50,7 @@ If you need any assistance on any issues or have questions, ideas or concerns. K
 
 ## Github URL Link
 
-To be able to view the project click on https://dopiyo85.github.io/week_two_ip
+To be able to view the project click on https://dopiyo85.github.io/week_two_ip/
 
 ### License
 
