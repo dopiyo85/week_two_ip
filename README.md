@@ -12,23 +12,15 @@
 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 
-Male
-Sunday: Kwasi
-Monday: Kwadwo
-Tuesday: Kwabena
-Wednesday: Kwaku
-Thursday:  Yaw
-Friday: Kofi
-Saturday: Kwame
-
-Female
-Sunday: Akosua
-Monday: Adwoa
-Tuesday: Abenaa
-Wednesday: Akua
-Thursday:  Yaa
-Friday: Afua
-Saturday: Ama
+| DayOfWeek    | MaleName      | FemaleName    |
+| -------------| --------------| --------------|
+| Sunday       | Kwasi         | Akosua        |
+| Monday       | Kwadwo        | Adwoa         |
+| Tuesday      | Kwabeno       | Abenaa        |
+| Wednesday    | Kwaku         | Akua          |
+| Thursday     | Yaw           | Yaa           |
+| Friday       | Kofi          | Afua          |
+| Saturday     | Kwame         | Ama           |
 
 I have been built this web page using visual studio code, Javascript, git bash and the uploading on Github.
 
