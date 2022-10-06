@@ -144,3 +144,13 @@ input[type="radio"] {
   opacity: 0.9;
   border-radius: 10px;
 }
+.button {
+    background-color: #0c0d0c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
