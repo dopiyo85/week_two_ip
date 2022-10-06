@@ -69,5 +69,8 @@
     text-align: center;
   }
   #p1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(143, 146, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(16, 17, 18);
+  }
+  #p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(250, 251, 253);text-align: center;
   }
