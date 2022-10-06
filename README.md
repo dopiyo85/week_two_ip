@@ -28,7 +28,7 @@ I have been built this web page using visual studio code, Javascript, git bash a
 
 - Input your date of birth
 - Pick your gender
-- Hit the 'generate' button
+- Hit the 'get name' button
 - Get your Akan name
 
 - Just click on the hyperlinks that will direct you to view Github projects.
