@@ -43,7 +43,9 @@
   }
   img {
     float: left;
-    margin: 20px;
+    margin: 12px;
+    width: 150px;
+    height: 180px;
   }
   .field 
   {
