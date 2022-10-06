@@ -32,10 +32,11 @@ I have been built this web page using visual studio code, Javascript, git bash a
 
 ## Setup/Installation Requirements
 
-- This is a great place to be, to learn more on Diana
-- You will learn on Diana's Background including education, job experience etc.
-- You will learn on Diana's reason for doing the course.
-- The project is easy-to-understand
+- Input your date of birth
+- Pick your gender
+- Hit the 'generate' button
+- Get your Akan name
+
 - Just click on the hyperlinks that will direct you to view Github projects.
 - Git clone https://github.com/dopiyo85/week_two_ip.git
 - Open cloned code on VS code
