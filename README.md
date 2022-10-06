@@ -31,8 +31,8 @@ I have been built this web page using visual studio code, Javascript, git bash a
 - Hit the 'get name' button
 - Get your Akan name
 
-- Just click on the hyperlinks that will direct you to view Github projects.
-- Git clone https://github.com/dopiyo85/week_two_ip.git
+To access for code for learning:
+- Go to Git clone https://github.com/dopiyo85/week_two_ip.git
 - Open cloned code on VS code
 - Run on live server
 
