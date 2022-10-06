@@ -3,7 +3,7 @@
     padding-bottom: 15px;
     margin-bottom: 15px;
     color: inherit;
-    background-color: rgb(175, 166, 166);
+    background-color: rgb(102, 99, 99);
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -13,6 +13,8 @@
     margin-bottom: 15px;
     font-size: 21px;
     font-weight: 200;
+    color: black;
+    margin-left: 15px;
   }
   .jumbotron > hr {
     border-top-color: #d5d5d5;
@@ -61,7 +63,7 @@
     background-image: url("/images/background.jpg");
     background-image: no-repeat;
     width: 100%;
-   height: 100%;
+    height: 100%;
   }
   h2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -76,7 +78,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(250, 251, 253);text-align: center;
   }
 .card{
-  background: rgb(145, 168, 192);
+  background: rgb(246, 247, 249);
 }
 .card-body{
   color: rgb(0, 0, 0);
@@ -84,7 +86,7 @@
 .card-deck{
   padding-bottom: 20px;
   font-weight: 600;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
 }
 .footer-copyright{
@@ -109,7 +111,7 @@ font-weight: 600;
   color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 18px;
-  font-family: 'Quattrocento', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .form-check-label{
   color: rgb(255, 255, 255);
