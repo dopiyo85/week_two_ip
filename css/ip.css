@@ -41,3 +41,11 @@
       font-size: 63px;
     }
   }
+  img {
+    float: left;
+    margin: 20px;
+  }
+  .field 
+  {
+    width: 100%;
+  }
