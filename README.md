@@ -6,23 +6,27 @@
 
 ## Description
 
- This project is my week two independent project.  I have built a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+This project is my week two independent project. I have built a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
  <img src="/images/akannames.png" width="500px" height="300px">
 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 
-| DayOfWeek    | MaleName      | FemaleName    |
-| -------------| --------------| --------------|
-| Sunday       | Kwasi         | Akosua        |
-| Monday       | Kwadwo        | Adwoa         |
-| Tuesday      | Kwabeno       | Abenaa        |
-| Wednesday    | Kwaku         | Akua          |
-| Thursday     | Yaw           | Yaa           |
-| Friday       | Kofi          | Afua          |
-| Saturday     | Kwame         | Ama           |
+| DayOfWeek | MaleName | FemaleName |
+| --------- | -------- | ---------- |
+| Sunday    | Kwasi    | Akosua     |
+| Monday    | Kwadwo   | Adwoa      |
+| Tuesday   | Kwabeno  | Abenaa     |
+| Wednesday | Kwaku    | Akua       |
+| Thursday  | Yaw      | Yaa        |
+| Friday    | Kofi     | Afua       |
+| Saturday  | Kwame    | Ama        |
 
 I have been built this web page using visual studio code, Javascript, git bash and the uploading on Github.
+
+## BDD
+
+
 
 ## Setup/Installation Requirements
 
@@ -32,6 +36,7 @@ I have been built this web page using visual studio code, Javascript, git bash a
 - Get your Akan name
 
 To access for code for learning:
+
 - Go to Git clone https://github.com/dopiyo85/week_two_ip.git
 - Open cloned code on VS code
 - Run on live server
