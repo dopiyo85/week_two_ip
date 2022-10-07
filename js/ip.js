@@ -2,13 +2,13 @@ var century, yearDigit, monthDigit, monthDay, dayOfWeek, dayValue;
 //  century - is the century digits. For example 1989 has CC = 19
 //  yearDigit - is the Year digits (1989 has YY = 89)
 //  monthDigit -  is the Month
-//  monthDay - is the Day of the month 
+//  monthDay - is the Day of the month
 //  dayOfWeek - Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 //  dayValue - the number that represent day of week in java eg Sunday is 0
 const dayWeekNames = [
   "Sunday",
   "Monday",
-  "Tuesday",
+  "Tu esday",
   "Wednesday",
   "Thursday",
   "Friday",
@@ -46,8 +46,7 @@ function validate() {
     alert("Please provide a valid year of birth! eg 2022");
     document.myForm.year.focus();
     return false;
-  } 
-  else if (
+  } else if (
     document.myForm.month.value == "" ||
     isNaN(document.myForm.month.value) ||
     document.myForm.month.value.length != 2 ||
@@ -81,7 +80,14 @@ function calculateDayValue() {
   yearDigit = parseInt(year.substring(2, 4));
   monthDigit = parseInt(document.getElementById("month").value);
   dayOfWeek = parseInt(document.getElementById("date").value);
-  dayValue= (century / 4 - 2 * century - 1 + (5 * yearDigit) / 4 + (26 * (monthDigit + 1)) / 10 + dayOfWeek) % 7;
+  dayValue =
+    (century / 4 -
+      2 * century -
+      1 +
+      (5 * yearDigit) / 4 +
+      (26 * (monthDigit + 1)) / 10 +
+      dayOfWeek) %
+    7;
   console.log(dayValue);
   return Math.floor(dayValue);
 }
@@ -218,7 +224,11 @@ function getGender() {
   }
 }
 function findName() {
-  dayValue = calculateDayValue();
-  getGender();
+  var dataIsValid = validate();
+  if (dataIsValid) {
+    dayValue = calculateDayValue();
+    getGender();
+  } else {
+    alert("Wrong Information!, Enter correct Year, Month and Day");
+  }
 }
-alert
