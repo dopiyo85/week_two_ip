@@ -1,4 +1,10 @@
 var CC, YY, MM, DD, d, dayValue;
+//  CC - is the century digits. For example 1989 has CC = 19
+//  YY - is the Year digits (1989 has YY = 89)
+//  MM -  is the Month
+//  DD - is the Day of the month 
+//  d - Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+//  dayValue - the number that represent day of week in java eg Sunday is 0
 var dayWeekNames = [
   "Sunday",
   "Monday",
@@ -8,6 +14,7 @@ var dayWeekNames = [
   "Friday",
   "Saturday",
 ];
+// The days of the week
 var maleAkanNames = [
   "Kwasi",
   "Kwadwo",
@@ -17,6 +24,7 @@ var maleAkanNames = [
   "Kofi",
   "Kwame",
 ];
+// the male Akan Names as per days of the week
 var femaleAkanNames = [
   "Akosua",
   "Adwoa",
@@ -26,19 +34,20 @@ var femaleAkanNames = [
   "Afua",
   "Ama",
 ];
-
+// the female Akan Names as per days of the week
 function validate() {
   var genders = document.getElementsByName("gender");
   if (
     document.myForm.year.value == "" ||
     document.myForm.year.value.length != 4 ||
-    document.myForm.year.value > 2100 ||
+    document.myForm.year.value > 2022 ||
     document.myForm.year.value <= 1900
   ) {
-    alert("Please provide a valid year of birth! eg 2019");
+    alert("Please provide a valid year of birth! eg 2022");
     document.myForm.year.focus();
     return false;
-  } else if (
+  } 
+  else if (
     document.myForm.month.value == "" ||
     isNaN(document.myForm.month.value) ||
     document.myForm.month.value.length != 2 ||
@@ -212,3 +221,4 @@ function findName() {
   dayValue = calculateDayValue();
   getGender();
 }
+alert
