@@ -101,7 +101,7 @@ function getGender() {
         alert(
           "You were born on " +
             dayWeekNames[0] +
-            " and Your akan name is " +
+            " and Your akan name is  " +
             maleAkanNames[0] +
             "!"
         );
