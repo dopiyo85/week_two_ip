@@ -1,11 +1,11 @@
-var CC, YY, MM, DD, d, dayValue;
-//  CC - is the century digits. For example 1989 has CC = 19
-//  YY - is the Year digits (1989 has YY = 89)
-//  MM -  is the Month
-//  DD - is the Day of the month 
-//  d - Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+var century, yearDigit, monthDigit, monthDay, dayOfWeek, dayValue;
+//  century - is the century digits. For example 1989 has CC = 19
+//  yearDigit - is the Year digits (1989 has YY = 89)
+//  monthDigit -  is the Month
+//  monthDay - is the Day of the month 
+//  dayOfWeek - Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 //  dayValue - the number that represent day of week in java eg Sunday is 0
-var dayWeekNames = [
+const dayWeekNames = [
   "Sunday",
   "Monday",
   "Tuesday",
@@ -15,7 +15,7 @@ var dayWeekNames = [
   "Saturday",
 ];
 // The days of the week
-var maleAkanNames = [
+const maleAkanNames = [
   "Kwasi",
   "Kwadwo",
   "Kwabena",
@@ -25,7 +25,7 @@ var maleAkanNames = [
   "Kwame",
 ];
 // the male Akan Names as per days of the week
-var femaleAkanNames = [
+const femaleAkanNames = [
   "Akosua",
   "Adwoa",
   "Abenaa",
@@ -77,13 +77,13 @@ function validate() {
 
 function calculateDayValue() {
   year = document.getElementById("year").value;
-  CC = parseInt(year.substring(0, 2));
-  YY = parseInt(year.substring(2, 4));
-  MM = parseInt(document.getElementById("month").value);
-  DD = parseInt(document.getElementById("date").value);
-  d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
-  console.log(d);
-  return Math.floor(d);
+  century = parseInt(year.substring(0, 2));
+  yearDigit = parseInt(year.substring(2, 4));
+  monthDigit = parseInt(document.getElementById("month").value);
+  dayOfWeek = parseInt(document.getElementById("date").value);
+  dayValue= (century / 4 - 2 * century - 1 + (5 * yearDigit) / 4 + (26 * (monthDigit + 1)) / 10 + dayOfWeek) % 7;
+  console.log(dayValue);
+  return Math.floor(dayValue);
 }
 
 function getGender() {
