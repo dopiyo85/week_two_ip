@@ -8,7 +8,7 @@ var century, yearDigit, monthDigit, monthDay, dayOfWeek, dayValue;
 const dayWeekNames = [
   "Sunday",
   "Monday",
-  "Tu esday",
+  "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
@@ -30,7 +30,7 @@ const femaleAkanNames = [
   "Adwoa",
   "Abenaa",
   "Akua",
-  " Yaa",
+  "Yaa",
   "Afua",
   "Ama",
 ];
