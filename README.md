@@ -25,7 +25,52 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 I have been built this web page using visual studio code, Javascript, git bash and the uploading on Github.
 
 ## BDD
+* Enter century of birth eg 20 for 2019,
+Input Example 20
+Output example 20
+     Input Example 20
+     Output example 20
 
+* Enter year of Birth eg 19 for 2022
+Input Example 22
+Output Example 22
+     Input Example 22
+     Output Example 22
+
+* Enter month of birth eg 01 for january 
+Input example 01
+Output example 01
+    Input example 01
+    Output example 01
+
+* Enter Date of the month you were born in eg 20
+input example 20
+output example 20
+    input example 20
+    output example 20
+
+* Select gender 
+Input example male
+output male
+    Input example male
+    output male
+
+Submit.
+Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid deatils.
+* 0 < Date >= 31.
+* 0 < Month >= 12
+* Gender Male or Female.  
+True value is output. Output example: **You were born on Sunday and Your akan name is Kwasi!** If your gender is Male.
+True value is output. Output example: **You were born on Sunday and Your akan name is  Akosua!** If your gender is female.
+
+**Example**
+* century input -- 20
+* year input   -- 22
+* month input  -- 07
+* date input -- 14
+* gender -- male selected,
+
+**Expected output is *You were born on Sunday and Your akan name is Kwasi!*** 
 
 
 ## Setup/Installation Requirements
